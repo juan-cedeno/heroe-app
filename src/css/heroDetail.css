@@ -1,0 +1,29 @@
+.container-card-detail{
+    display: flex;
+    margin-left: 50px;
+}
+.img-card-detail{
+    width: 350px;
+    border-radius: 3px;
+}
+.container-letter-detail{
+    margin-left: 30px;
+}
+.container-card-detail span {
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 10px;
+}
+.container-card-detail p {
+    font-size: 14px;
+}
+.back{
+    padding: 9px 35px;
+    background-color: #61CDB5;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,42 @@
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+.container-links{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.logo{
+    background-color: #2B2B2E;
+    padding: 10px;
+    margin-right: 40px;
+    color: #ffff;
+    border-radius: 8px;
+}
+
+.nav-link {
+    color: #61CDB5;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.name-navbar{
+    color: #73797C;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.btn-logout{
+    border: 0;
+    background-color: transparent;
+    color: #E7434B;
+    cursor: pointer;
+}
+.active{
+    color: #1D1D1F;
+    font-weight: bold;
+}
+

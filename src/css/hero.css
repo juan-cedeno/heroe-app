@@ -1,0 +1,28 @@
+
+.container-hero-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    width: 350px;
+    margin: 10px 40px;
+}
+.img-card{
+    width: 230px;
+    border-radius: 3px;
+    box-shadow: -7px 4px 8px #e1e1e3;
+}
+.container-letter-card{
+    margin-left: 15px;
+}
+.container-letter-card p {
+    font-size: 13px;
+}
+.character{
+    color: rgb(139, 139, 139);
+}
+.more{
+    font-size: 14px;
+    color: blue;
+}

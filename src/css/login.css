@@ -1,0 +1,16 @@
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.login{
+    padding: 9px 50px;
+    background-color: #61CDB5;
+    border: 0px;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
