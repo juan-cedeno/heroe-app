@@ -1,4 +1,6 @@
 
+import { useContext } from 'react';
+import { AuthContext } from '../auth/AuthContext';
 import { NavLink, useNavigate } from 'react-router-dom';
 
 import '../css/navbar.css'
@@ -6,8 +8,14 @@ import '../css/navbar.css'
 export const NavBar = () => {
 
     const navigate = useNavigate()
+    const {authState , LogOut} = useContext(AuthContext)
+    const {name} = authState
 
     const handlenLogout = () => {
+
+        LogOut()
+        localStorage.removeItem('user')
+
         navigate('/login' , {
             replace: true
         })
@@ -42,7 +50,7 @@ export const NavBar = () => {
             </div>
 
             <div className='container-logout'>
-                <label className='name-navbar'>Juan</label>
+                <label className='name-navbar'>{name}</label>
                 <button onClick={handlenLogout} className='btn-logout'>Logout</button>
             </div>
         </nav>
